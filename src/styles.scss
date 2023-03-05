@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+//variables
+@import 'ngx-toastr/toastr';
+
+$primary-color: #ffc035 ;
+$primary-color-dark: #ff9f00;
+$secondary-light: #dce8e8;
+$secondary-dark: #2c3e50;
+$secondary-color: #2c3e50;
+
+.bg-primary{
+  background-color: $primary-color !important;
+}
+.btn-primary{
+  background-color: $primary-color;
+  border-color: $primary-color-dark;
+}
+.form-check-input:checked {
+  background-color:  $primary-color;
+  border-color: $primary-color;
+}
+.btn-outline-primary{
+  color: $primary-color;
+  border-color: $primary-color;
+}
+.w-33{
+  width: 33%;
+}
+.mat-mdc-dialog-surface{
+  background-color: white !important;
+  padding: 0px 0px 0px 0px !important;
+  overflow: hidden !important;
+}
+.mat-mdc-dialog-surface{
+  overflow: auto !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.height-min-content{
+  height: min-content;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.width-min-content{
+  width: min-content;
+}
+
+.width-max-content{
+  width: max-content;
+}
+
+.d-hidden{
+  visibility: collapse;
+}

@@ -1,0 +1,41 @@
+@import 'src/styles';
+
+.checked {
+  color: orange;
+}
+
+.tag{
+    .value{
+        font-size: 22px;
+    }
+    .name{
+        font-size: 16px;
+    }
+}
+
+.ingredients{
+    .ingredient{
+        margin-top: 12px;
+        font-size: 16px;
+        .fa{
+            color: $primary-color;
+        }
+    }
+}
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+}
+
+.imgselect{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .fs-6{
+        font-size: small !important;
+    }
+}
